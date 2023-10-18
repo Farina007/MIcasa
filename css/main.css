@@ -1,0 +1,29 @@
+*{
+   font-family: 'Roboto', sans-serif; 
+}
+
+.bg-color-header{
+
+    background: rgb(165, 230, 230);
+}
+
+.navbar-brand{
+
+    width: 5rem;
+}
+
+.carousel-control-prev{
+
+    font-size: 4rem;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.carousel-control-next{
+
+    font-size: 4rem;
+}
+
+img{
+    height: 45rem;
+}
