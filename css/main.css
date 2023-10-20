@@ -24,18 +24,27 @@
     font-size: 4rem;
 }
 
-img{
-    height: 45rem;
-}
-
 .card{
 
     margin-top: -6rem;
+    border: 0.2rem solid black;
+    border-radius: 2rem;
 }
 
 .btn{
 
-    margin: 0 0 5rem 0 ;
+    margin: 0 0 7rem 0 ;
+}
+
+.navbar{
+
+    border-bottom: 0.2rem solid black;
+}
+
+.carousel{
+
+    border: 0.1rem solid black;
+    margin: 4rem 0 0 0;
 }
 
 i{
@@ -46,3 +55,39 @@ a{
 
     font-size: 4rem;
 }
+
+body{
+
+    background-color: darkgray;
+}
+
+@media(max-width: 700px){
+
+    .card{
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width: 450px){
+
+    .card{
+        margin-top: 1rem;
+    }
+}
+
+@media(max-width: 575px){
+
+    .navbar-brand{
+
+        width: 5rem;
+    }
+}
+
+@media(max-width: 575px){
+
+    .navbar-brand{
+
+        width: 2rem;
+    }
+}
+
