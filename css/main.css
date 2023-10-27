@@ -2,6 +2,18 @@
    font-family: 'Roboto', sans-serif; 
 }
 
+#footer{
+
+    background-color: #EA9043;
+    border: 0.1rem solid black;
+    padding-left: 1rem;
+}
+
+.centro{
+
+    padding-top: 1rem;
+}
+
 .bg-color-header{
 
     background: #040404;
@@ -26,9 +38,9 @@
 
 .card{
 
-    margin-top: -6rem;
-    border: 0.2rem solid black;
-    background-color: #C0BFBD;
+    margin-top: 1rem;
+    background-color: #202020;
+    color: #FFFFFF;
 }
 
 .tamanho-1{
@@ -57,6 +69,48 @@
     margin: 4rem 0 0 0;
 }
 
+.marrie{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hist-fun{
+
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    border-top: 0.2rem solid black;
+    padding-left: 1rem;
+    padding-right: 0.1rem;
+}
+
+.hist-mc{
+    
+    border-bottom: 0.2rem solid black;
+    padding-left: 1rem;
+    padding-right: 0.1rem;
+}
+
+.bruce{
+
+    font-size: 1.4rem;
+}
+
+.tamanho{
+
+    font-size: 2.5rem;
+}
+
+.secun{
+
+    font-size: 1.5rem;
+}
+
+bi-youtube, .bi-instagram, .bi-facebook, .bi-twitter{
+    font-size: 2rem;
+}
+
 span{
 
     color: #C0BFBD;
@@ -77,8 +131,8 @@ a{
 }
 
 body{
-
-    background-color: #EA9043;
+    overflow-x: hidden;
+    background-color: #C0BFBD;
 }
 
 @media(max-width: 700px){
