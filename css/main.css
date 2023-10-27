@@ -4,7 +4,7 @@
 
 .bg-color-header{
 
-    background: rgb(165, 230, 230);
+    background: #040404;
 }
 
 .navbar-brand{
@@ -28,7 +28,17 @@
 
     margin-top: -6rem;
     border: 0.2rem solid black;
-    border-radius: 2rem;
+    background-color: #C0BFBD;
+}
+
+.tamanho-1{
+
+    margin-top: 5rem;
+}
+
+.tamanho{
+
+    font-size: 3rem;
 }
 
 .btn{
@@ -47,6 +57,16 @@
     margin: 4rem 0 0 0;
 }
 
+span{
+
+    color: #C0BFBD;
+}
+
+.cor{
+
+    color: #C0BFBD;
+}
+
 i{
     font-size: 2rem;
 }
@@ -58,7 +78,7 @@ a{
 
 body{
 
-    background-color: darkgray;
+    background-color: #EA9043;
 }
 
 @media(max-width: 700px){
