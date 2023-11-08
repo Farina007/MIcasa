@@ -1,0 +1,22 @@
+.titulo{
+
+    text-align: center;
+}
+
+.display{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.xl{
+
+    margin: 0 0 1rem;
+}
+
+.botao{
+
+    margin-top: 2rem;
+}

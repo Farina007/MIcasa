@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mclaren</title>
+
+    <!--Googles Fonts ROBOT-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,500&display=swap" 
+rel="stylesheet">
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" 
+    crossorigin="anonymous">
+
+    <!--Bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!--CSS do projeto-->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top bg-color-header">
+            <section class="container py-3">
+                <a href="#" class="navbar-brand">
+                    <img class="img-fluid" src="./images/logoMclaren.jpg" alt="Logo">
+                    <span>Mclaren</span>
+                </a>
+                <button type="button" class="navbar-toggler" 
+                data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items"
+                aria-expanded="false" aria-label="Navigation">
+                    <i class="bi bi-list"></i>
+                </button>
+                <section class="collapse navbar-collapse" id="navbar-items">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item"><a class="nav-link cor" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link cor" href="#">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link cor" href="#">Projetos</a></li>
+                        <li class="nav-item"><a class="nav-link cor" href="#">Dicas</a></li>
+                        <li class="nav-item"><a class="nav-link cor" href="#">Contatos</a></li>
+                    </ul>
+                </section>
+            </section>
+        </nav>
+    </header>
+
+    <section class="container" id="slider-container">
+        <section class="carousel slide" id="slider" data-bs-interval="2000" data-bs-ride="carousel">
+                <section class="carousel-indicators">
+                    <button type="button" class="active"
+                        data-bs-slide-to="0" aria-current="true"
+                        aria-label="Slide 1" data-bs-target="#slider"></button>
+            
+                    <button type="button" data-bs-slide-to="1" 
+                        aria-label="Slide 2" data-bs-target="#slider"></button>
+
+                    <button type="button" data-bs-slide-to="2" 
+                        aria-label="Slide 3" data-bs-target="#slider"></button>
+
+                    <button type="button" data-bs-slide-to="3" 
+                        aria-label="Slide 4" data-bs-target="#slider"></button>
+                </section>
+
+            <section class="carousel-inner">
+                    <section class="carousel-item active">
+                        <img src="images/P1 GTR.jpg" alt="Imagem 1" class="d-block w-100">
+                        <section class="carousel-caption">
+                            <h5>Imagem 1</h5>
+                            <a href="#" class="btn btn-dark">Veja +</a>
+                        </section>
+                    </section>
+                    <section class="carousel-item">
+                        <img src="images/McLaren     600LT_resized.jpg" alt="Imagem 2" class="d-block w-100"> 
+                        <section class="carousel-caption">
+                            <h5>Imagem 2</h5>
+                            <a href="#" class="btn btn-dark">Veja +</a>
+                        </section>
+                    </section>
+                    <section class="carousel-item">
+                        <img src="images/McLaren F1.jpg" alt="Imagem 3" class="d-block w-100">
+                        <section class="carousel-caption">
+                        <h5>Imagem 3</h5>
+                            <a href="#" class="btn btn-dark">Veja +</a>
+                        </section>
+                    </section>
+                    <section class="carousel-item">
+                        <img src="images/mclaren senna_resized.jpg" alt="Imagem 4" class="d-block w-100">
+                        <section class="carousel-caption">
+                            <h5>Imagem 4</h5>
+                            <a href="#" class="btn btn-dark">Veja +</a>
+                        </section>
+                    </section>
+                </section>
+        
+                <button type="button" class="carousel-control-prev" 
+                    data-bs-target="#slider" data-bs-slide="prev">
+
+                    <i class="bi bi-chevron-compact-left"></i>
+                </button>
+                <button type="button" class="carousel-control-next" 
+                    data-bs-target="#slider" data-bs-slide="next">
+
+                    <i class="bi bi-chevron-compact-right"></i>
+                </button>
+        </section>
+    </section>
+
+    <!--inicio do container-->
+    <section class="container xl">   
+        <section class="container" id="container-banner">
+            <section class="row">
+                <section class="col-12 col-md-6">
+                    <section class="container">
+                        
+                        <section class="row">
+                            <section class="col-12 col-md-6">
+                                <section class="card">
+                                    <section class="card-body">
+                                        <i class="bi bi-plus-circle"></i>
+                                        <section class="display">
+                                            <h5 class="card-title titulo">Create - Post</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquid!</p>
+                                        <section class="botao">
+                                            <a href="" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">Create</a>
+                                            <a href="" class="btn btn-danger">Salvar</a>
+                                            <a href="" class="btn btn-danger">Adicionar</a>
+                                        </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="col-12 col-md-6">
+                                <section class="card">
+                                    <section class="card-body">
+                                        <i class="bi bi-plus-circle"></i>
+                                        <section class="display">
+                                            <h5 class="card-title titulo">Read - Get</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquid!</p>
+                                            <section class="botao">
+                                                <a href="" class="btn btn-danger">Exibir</a>
+                                                <a href="" class="btn btn-danger">Ver</a>
+                                                <a href="" class="btn btn-danger">Visualizar</a>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="col-12 col-md-6">
+                                <section class="card">
+                                    <section class="card-body">
+                                        <i class="bi bi-plus-circle"></i>
+                                        <section class="display">
+                                            <h5 class="card-title titulo">Update - Put</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquid!</p>
+                                            <section class="botao">
+                                                <a href="" class="btn btn-danger">Exibir</a>
+                                                <a href="" class="btn btn-danger">Ver</a>
+                                                <a href="" class="btn btn-danger">Visualizar</a>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                            <section class="col-12 col-md-6">
+                                <section class="card">
+                                    <section class="card-body">
+                                        <i class="bi bi-plus-circle"></i>
+                                        <section class="display">
+                                            <h5 class="card-title titulo">Delete - Delete</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, aliquid!</p>
+                                            <section class="botao">
+                                                <a href="" class="btn btn-danger">Exibir</a>
+                                                <a href="" class="btn btn-danger">Ver</a>
+                                                <a href="" class="btn btn-danger">Visualizar</a>
+                                            </section>
+                                        </section>
+                                    </section>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+               
+                <section class="col-12 col-md-6">
+                    <h1>Slide sow</h1>
+                </section>
+            </section>
+        </section>
+    </section>
+
+<div class="row" id="footer">
+        
+    <div class="col-md-6">
+        <h1 class="text-center text" id="contato">Entre em contato</h1>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"><h4>Digite seu email</h4></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"><h4>Digite seu texto</h4></label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <div class="col-auto">
+                <button type="button" class="btn btn-outline-dark">Enviar email</button>
+              </div>
+          </div>
+          <center>
+            <i class="bi bi-youtube"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-facebook"></i>
+          </center>
+    </div>
+</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
