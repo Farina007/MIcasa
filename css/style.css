@@ -1,6 +1,7 @@
 .titulo{
 
     text-align: center;
+    margin-top: 1.5rem;
 }
 
 .display{
@@ -19,4 +20,31 @@
 .botao{
 
     margin-top: 2rem;
+}
+
+.container-meu{
+
+    margin-top: 8rem;
+}
+
+.footer-modal{
+
+    height: 4rem;
+    background-color: #EA9043;
+}
+
+.header-modal{
+
+    background-color: #EA9043;
+}
+
+.body-modal{
+
+    background-color: #C0BFBD;
+}
+
+.form-control{
+
+    background-color: #C0BFBD;
+    border: 0.1rem solid black;
 }
